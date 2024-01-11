@@ -38,7 +38,8 @@ public class Ex03 {
 		System.out.println(result02+2);
 		
 		String result03=""+999;
+		System.out.println(result03);
 
-	}//	i love u♡	
+	}
 
 }
