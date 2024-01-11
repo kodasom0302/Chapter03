@@ -7,6 +7,7 @@ public class PointApp {
 		Point p00=new Point(3,5);
 		Point p01=new Point(3,5);
 		Point p02=new Point(13,15);
+		Point p03=p02;	//p02의 주소를 p03에 넣어준 것 - new를 쓰지 않았기에 메모리에 올리지 않음
 		
 		System.out.println(p00.getClass());
 		System.out.println(p01.getClass());
@@ -26,9 +27,10 @@ public class PointApp {
 		
 		System.out.println("===============================");
 		
-		System.out.println(p00.equals(p01));
-		System.out.println(p01.equals(p00));
-		System.out.println(p02.equals(p02));
+		System.out.println(p00.equals(p01));	//p00 부모의 메소드 사용
+		System.out.println(p01.equals(p00));	//p01 부모의 메소드 사용
+		
+		System.out.println(p02.equals(p03));
 
 	}
 
