@@ -76,8 +76,6 @@ public class Ex02 {
 		if ("안녕".equals(s03)) {	//주소가 없는 경우 오류 발생할 가능성이 있기 때문에 그 변수의 equals()를 사용
 			System.out.println("출력");
 		}
-		
-		//i luv u♡ 
 
 	}
 
