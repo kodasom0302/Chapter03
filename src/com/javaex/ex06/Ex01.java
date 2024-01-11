@@ -19,7 +19,12 @@ public class Ex01 {
 		System.out.println(s01);
 		System.out.println(s02);
 		
-		//i luv u♡
+		System.out.println("--------------------------------");
+		
+		String s03=new String("하이");
+		String s04=new String("하이");
+		
+		System.out.println(s03==s04);
 
 	}
 
