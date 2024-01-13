@@ -4,7 +4,6 @@ public class Rectangle {
 	
 	private int width;
 	private int height;
-	private int area=width*height;
 	
 	public Rectangle() {
 		super();
@@ -38,6 +37,7 @@ public class Rectangle {
 	public boolean equals(Object obj) {
 		Rectangle r=(Rectangle) obj;
 		boolean result;
+		int area=this.width*this.height;
 		
 		if (this.area==r.area) {
 			result=true;
